@@ -2,10 +2,10 @@ name: ci
 
 on:
   push:
+    paths:
+      - src/**
     branches:
       - main
-    paths:
-      - 'src/**'
     
 
 jobs:
